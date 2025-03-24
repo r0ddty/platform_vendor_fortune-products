@@ -15,7 +15,7 @@
 #
 
 # Check for target product
-ifeq (aospa_fog,$(TARGET_PRODUCT))
+ifeq (fortune_fog,$(TARGET_PRODUCT))
 
 # Inherit from framework configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
