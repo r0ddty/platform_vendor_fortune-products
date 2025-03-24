@@ -8,10 +8,12 @@
 PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/garnet/fortune_garnet.mk \
     $(LOCAL_DIR)/sapphire/fortune_sapphire.mk \
-    $(LOCAL_DIR)/topaz/fortune_topaz.mk
+    $(LOCAL_DIR)/topaz/fortune_topaz.mk \
+    $(LOCAL_DIR)/fog/fortune_fog.mk
 
 # Lunch targets
 COMMON_LUNCH_CHOICES += \
     fortune_garnet-ap3a-userdebug \
     fortune_sapphire-ap3a-userdebug \
-    fortune_topaz-ap3a-userdebug
+    fortune_topaz-ap3a-userdebug \
+    fortune_fog-ap3a-userdebug

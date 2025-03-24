@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+SPDX-FileCopyrightText: 2024 Paranoid Android
+SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+    <include name="../platforms/taro.xml" />
+
+    <project path="device/xiaomi/fog" name="r0ddty/device_xiaomi_fog" remote="github" revision="fortune-15-qpr1" />
+    <project path="device/xiaomi/fog-kernel" name="r0ddty/device_xiaomi_fog-kernel" remote="github" revision="andromeda" clone-depth="1" />
+    <project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="aospa" revision="vauxite" />
+    <project path="vendor/xiaomi/fog" name="r0ddty/vendor_xiaomi_fog" remote="github" revision="clo" clone-depth="1" />
+    <project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" remote="aospa" revision="uvite-8450" />
+    <project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" remote="aospa" revision="uvite-8450" />
+</manifest>
